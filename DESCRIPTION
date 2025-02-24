@@ -1,0 +1,12 @@
+Package: uteisEspacial
+Title: Helps To Solve GeoSpatial problems
+Version: 0.0.0.1
+Authors@R: 
+    person("Bruno", "Cantisano", , "bruno.cantisano@gmail.com", role = c("aut", "cre"))
+Description: Functions to help solving problems with raster and other geospatial problemas, like downloading those files from government sites.
+License: MIT
+Imports:
+    rstudioapi
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
