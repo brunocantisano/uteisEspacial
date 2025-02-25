@@ -4,5 +4,5 @@
 #' @return O caminho raíz da aplicação
 #' @export
 diretorioRaiz <- function() {
-  return(dirname(rstudioapi::getSourceEditorContext()$path))
+  return(paste(dirname(rstudioapi::getSourceEditorContext()$path), "/", sep=""))
 }
